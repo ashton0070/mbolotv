@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Bannière Android TV (320x180 dp) — même identité que l'icône
+     Mbolo TV : fond sombre cinématographique, pastille verte « M »,
+     arcs évoquant le motif des affiches MboloPoster. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="320dp"
+    android:height="180dp"
+    android:viewportWidth="320"
+    android:viewportHeight="180">
+
+    <path
+        android:fillColor="#070A09"
+        android:pathData="M0,0h320v180h-320z" />
+
+    <!-- Halo vert profond à droite -->
+    <path
+        android:fillColor="#0B3A27"
+        android:pathData="M256,90m-74,0a74,74 0 1,1 148,0a74,74 0 1,1 -148,0" />
+
+    <!-- Arcs du motif d'affiche -->
+    <path
+        android:strokeColor="#12C06E"
+        android:strokeWidth="3"
+        android:strokeAlpha="0.30"
+        android:pathData="M196,150a58,58 0 0,1 58,-58" />
+    <path
+        android:strokeColor="#12C06E"
+        android:strokeWidth="3"
+        android:strokeAlpha="0.20"
+        android:pathData="M172,158a86,86 0 0,1 86,-86" />
+    <path
+        android:strokeColor="#6FE7AE"
+        android:strokeWidth="3"
+        android:strokeAlpha="0.14"
+        android:pathData="M148,166a114,114 0 0,1 114,-114" />
+
+    <!-- Pastille de marque, comme l'icône du launcher -->
+    <path
+        android:strokeColor="#6FE7AE"
+        android:strokeWidth="2.5"
+        android:strokeAlpha="0.30"
+        android:pathData="M66,90m-40,0a40,40 0 1,1 80,0a40,40 0 1,1 -80,0" />
+    <path
+        android:fillColor="#12C06E"
+        android:pathData="M66,90m-32,0a32,32 0 1,1 64,0a32,32 0 1,1 -64,0" />
+    <path
+        android:strokeColor="#032015"
+        android:strokeWidth="8"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M52,106L52,74L66,90L80,74L80,106" />
+</vector>
